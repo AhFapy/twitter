@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-nav {
+  display: flex;
+  background-color: #39BDFA;
+  height: 10vh;
+  align-items: center;
+  text-justify: center;
+}
+
+.tw-logo {
+  height: 12vh;
+  margin-left: 0.2vw;
+}
+
+main {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vh;
+  align-self: center;
+  width: 20vw;
+  height: 50vh;
+  background-color:#39BDFA;
+}
+
+.input-forms {
+  display: flex;
+  align-self: center;
+  margin-bottom: 5vh;
+  height: 4vh;
+  width: 15vw;
+}
+
+.login-btn {
+  height: 5vh;
+  width: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+
+.forgot-password {
+  margin-right: 50%;
+  margin-top: 2vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.logged-successful {
+  color: white;
+}
+
+.home-nav {
+  display: flex;
+  background-color: #39BDFA;
+  height: 10vh;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-tw {
+  background-color: black;
+  flex-direction: row;
+
+}
+
+#main-element {
+  border: solid;
+  border-color: gray;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-right: 6vw;
+}
+
+.home-bar {
+  width: 25%;
+  padding-left: 20%;
+  padding-top: 4vh;
+}
+
+.feed {
+  width: 50%;
+  background-color: black;
+}
+
+.tweet-container{
+  display: flex;
+  text-align: center;
+  width: 49.7vw;
+  padding: 0;
+  margin-right: 0;
+  padding-top: 1vh;
+  color: white;
+  border: solid;
+  border-color: gray;
+}
+
+.tweet{
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  height: 5vh;  
+  width: 50vw;
+  padding-left: 20%;
+  margin-right: 0;
+  
+}
+
+.tweet-date{
+  display: flex;
+  justify-content: right;
+  margin-right: 2vw;
+  height: 2vh;
+  width: 15vw;
+  background-color: black;
+  padding: 0;
+  margin-right: 0;
+
+}
+
+.search-recommendations {
+  width: 25%;
+
+}
+
+.search-bar{
+  margin-left: 2vw;
+  margin-top: 2vh;
+}
+
+.search-bar-input{
+  width: 20vw;
+  border-radius: 5vw;
+}
+
+.recommendations-and-trendings{
+  margin-left: 2vw;
+  margin-top: 2vh;
+  border: solid;
+  border-color: gray;
+  border-radius: 1.5vw;
+  width: 20vw;
+  height: 60vh;
+  padding-top: 1vh;  
+}
+
+.recommendations-and-trendings-title{
+  color: white;
+  margin-left: 0.5vw;
+}
+
+.recommendation {
+  color: white;
+  margin-top: 1vh;
+  margin-left: 0.2vw;
+}
+
+.recommendation-img {
+  margin-top: 0.5vh;
+  width: 6vw;
+  height: 1h;
+}
+
+.trending-p{
+  margin-top: 0.4vh;
+}

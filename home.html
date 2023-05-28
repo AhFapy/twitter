@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css"></link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.html" rel="import"/>
+    <title>Twitter - Home</title>
+</head>
+<body>
+    <nav class="home-nav">
+        <img class="tw-logo" src="https://static.vecteezy.com/system/resources/previews/018/930/745/original/twitter-logo-twitter-icon-transparent-free-free-png.png">
+        <h1 class="nav-title">Home</h1>
+    </nav>
+    <main class="main-tw">
+        <div id="main-element" class="home-bar">
+            <div class="home-btn btn active"><button>Home</button></div>
+            <br>
+            <div class="explore-btn btn"><button>Explore</button></div>
+            <br>
+            <div class="notifications-btn"><button>Notifications</button></div>
+            <br>
+            <div class="messages-btn btn"><button>Messages</button></div>
+            <br>
+            <div class="saved-tweets-btn btn"><button>Saved Elements</button></div>
+            <br>
+            <div class="twitter-blue-btn btn"><button>Twitter Blue</button></div>
+            <br>
+            <div class="my-profile-btn btn"><button>Profile</button></div>
+            <br>
+            <div class="settings-btn btn"><button>Settings</button></div>
+            <br>
+            <div class="publish-tweet btn"><button id="publish-tweet-btn" onclick="publishTweet()">Publish Tweet</button></div>
+        </div>
+        <div id="main-element" class="feed"></div>
+        <div id="main-element" class="search-recommendations">
+            <div class="search-bar">
+                <input class="search-bar-input" placeholder=" Search on Twitter">
+            </div>
+            <div class="recommendations-and-trendings">
+                <div class="recommendations-and-trendings-title"><h2>What's Happening</h2>
+                    <div class="recommendation"><small>NBA · This Morning <br></small>
+                    <img class="recommendation-img" src="https://www.mundodeportivo.com/files/image_948_465/uploads/2023/05/06/6455dbe47b597.jpeg"><small class="recom-small">Celtics at 76ers</small></div>
+                    <div class="recommendation"><small>Sports - Trending</small> <br>
+                    <p class="trending-p"><b>Vlahovic</b></p>
+                    </div>
+                    <div class="recommendation"><small>Trending In Spain</small> <br>
+                        <p class="trending-p"><b>Bad Bunny</b></p>
+                    </div>
+                    <div class="recommendation"><small>Trending In Spain</small> <br>
+                        <p class="trending-p"><b>🏳‍🌈</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
